@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Professional Web Saytim</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(to right, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white antialiased">
+
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-sm border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold gradient-text">DevPro.uz</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">Bosh sahifa</a>
+                        <a href="#services" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">Xizmatlar</a>
+                        <a href="#portfolio" class="hover:text-blue-400 px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
+                        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium">Bog'lanish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Biznesingiz uchun <span class="gradient-text">Zamonaviy Web Yechimlar</span>
+            </h1>
+            <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
+                Men sizning biznesingizni raqamlashtirishga, mijozlar oqimini oshirishga va sotuvlarni ko'paytirishga yordam beraman. Tez, sifatli va hamyonbop.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">
+                    Bepul Konsultatsiya
+                </a>
+                <a href="#portfolio" class="border border-slate-600 hover:border-blue-500 text-white px-8 py-3 rounded-lg font-semibold transition">
+                    Ishlarimni ko'rish
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Mening Xizmatlarim</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fas fa-laptop-code text-4xl text-blue-500 mb-4" aria-hidden="true"></i>
+                    <h3 class="text-xl font-bold mb-2">Landing Page</h3>
+                    <p class="text-slate-400">Bir mahsulot yoki xizmatni sotishga qaratilgan, yuqori konversiyali sahifalar.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fas fa-building text-4xl text-purple-500 mb-4" aria-hidden="true"></i>
+                    <h3 class="text-xl font-bold mb-2">Korporativ Saytlar</h3>
+                    <p class="text-slate-400">Kompaniya imidjini ko'taruvchi, to'liq ma'lumotli va zamonaviy veb-saytlar.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition">
+                    <i class="fas fa-mobile-alt text-4xl text-green-500 mb-4" aria-hidden="true"></i>
+                    <h3 class="text-xl font-bold mb-2">Telegram Mini Apps</h3>
+                    <p class="text-slate-400">Telegram ichida ishlaydigan, buyurtma qabul qilish va xizmat ko'rsatish botlari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">So'nggi Loyihalar</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group relative overflow-hidden rounded-xl">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Onlayn do'kon loyihasi" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold">Online Do'kon</h3>
+                            <p class="text-slate-300">E-commerce yechimi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-xl">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80" alt="Restoran sayti loyihasi" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/70 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold">Restoran Sayti</h3>
+                            <p class="text-slate-300">Menyu va Buyurtma tizimi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-800/50">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Hamkorlikka Tayyormisiz?</h2>
+            <p class="text-slate-400 mb-8">Loyihangiz haqida gaplashaylik. Birinchi konsultatsiya bepul!</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="https://t.me/Yurist_617" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2">
+                    <i class="fab fa-telegram" aria-hidden="true"></i> Telegram orqali yozish
+                </a>
+                <a href="tel:+998957570231" class="bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg flex items-center justify-center gap-2">
+                    <i class="fas fa-phone" aria-hidden="true"></i> +998 95 757 02 31
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-slate-500 text-sm border-t border-slate-800">
+        &copy; 2026 DevPro.uz. Barcha huquqlar himoyalangan.
+    </footer>
+
+</body>
+</html>
